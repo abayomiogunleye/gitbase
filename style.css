@@ -1,0 +1,54 @@
+body{
+  background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+main{
+  width: 20%;
+  height: 500px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  margin: 130px 650px;
+}
+img{
+  border-top-right-radius: 20px ;
+  border-top-left-radius: 20px ;
+}
+.ann{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  margin-left: 30px;
+  border-radius: 5px;
+  color: rgb(77, 74, 74);
+}
+.ann i{
+  background-color: rgb(241, 239, 239);
+  color: rgb(104, 98, 98);
+  padding: 13px;
+  border-radius: 60%;
+  height: 4px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-top: 18px;
+}
+.ann p{
+  margin-right: 20px;
+}
+.ann a{
+  margin-top: 22px;
+}
+.pay{
+  background-color: rgb(4, 4, 189);
+  padding: 10px 75px;
+  border-radius: 10px;
+  border-style: none;
+  color: white;
+  font-weight: bold;
+  box-shadow: 5px 10px rgb(240, 237, 237);
+}
+.pay:hover{
+  cursor: pointer;
+  animation: pulse;
+  animation-duration: 2s;
+}
